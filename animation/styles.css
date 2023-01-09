@@ -1,0 +1,57 @@
+.container {
+    background-color: orange;
+}
+
+.box {
+    background-color: greenyellow;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    animation-name: yash1;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    /* animation-fill-mode: alternate; */
+    /* animation-timing-function: ease-in; */
+    /* animation-delay: 3s; */
+    /* animation-direction: reverse; */
+    /* animation-play-state: ; */
+}
+
+@keyframes yash1 {
+
+    /* from {
+        width: 200px;
+
+    }
+
+    to {
+        width: 400px;
+    } */
+    0% {
+        top: 0px;
+        left: 0px;
+    }
+
+    25% {
+        top: 250px;
+        left: 0px;
+    }
+
+    50% {
+        top: 250px;
+        left: 250px;
+    }
+
+    75% {
+        top: 0;
+        left: 250px;
+    }
+
+    100% {
+        top: 0px;
+        left: 0px;
+
+
+    }
+
+}

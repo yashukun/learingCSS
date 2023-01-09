@@ -1,0 +1,39 @@
+body {
+    background-color: aquamarine;
+    /* border: 2px solid green; */
+}
+
+#box {
+    color: white;
+    display: flex;
+    height: 200px;
+    width: 200px;
+    justify-content: center;
+    align-content: center;
+    background-color: black;
+    /* margin: 10%; */
+    /* position: relative; */
+    /* top: 10px; */
+
+
+    align-items: center;
+    transition-duration: 0.7s;
+    /* transition-property: background-color; */
+    /* transition-timing-function: ease-in-out; */
+    /*transition-delay: 2s;
+    /* transition: background-color 1s ease-in-out 2s; */
+    /*2nd is duration 4th is delay*/
+
+
+
+}
+
+#box:hover {
+    /* margin: 50%; */
+    /* top: 100px; */
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    color: black;
+    background-color: white;
+}

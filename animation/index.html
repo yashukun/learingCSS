@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keyframes and animation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div><button id="bmw">play
+        </button></div>
+    <div class="container">
+        <div id="big" class="box">
+            this is a box
+        </div>
+    </div>
+    <script>
+        let a = document.getElementById("bmw");
+        let b = document.getElementById("big");
+        a.addEventListener("click", () => {
+            b.style.animationName = "yash1";
+            b.style.backgroundColor = "red";
+        })
+    </script>
+
+
+</body>
+
+</html>

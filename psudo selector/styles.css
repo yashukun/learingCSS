@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+section {
+    /* padding: 20px; */
+    height: 344px;
+
+    justify-content: center;
+    border: 2px solid red;
+    margin: 3px 23px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* section::before {
+    content: "this is a content";
+} */
+
+.navigation {
+    font-size: 20px;
+    display: flex;
+
+}
+
+li {
+    list-style: none;
+    padding: 34px 23px;
+}
